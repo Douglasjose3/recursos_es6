@@ -20,7 +20,7 @@ console.log(somarComRest(10, 30, 50));
 
 
 //SPREADS
-const numeros = [10, 40, 60]
+const numeros = [100000, 40, 60]
 console.log(...numeros);
 
 const timesDeSP = ['Corinthians', 'Bragantino', 'São Paulo', 'Santos'];
@@ -47,7 +47,7 @@ console.log(carroTeste1);
 console.log(carroTeste2);
 
 
-//DESETRUTURAÇÃO
+//DESESTRUTURAÇÃO
 // const motorCarroTeste2 = carroTeste2.motor; //motor é a propriedade
 // console.log(motorCarroTeste2);
 const {motor: motorCarroTeste1} = carroTeste1;

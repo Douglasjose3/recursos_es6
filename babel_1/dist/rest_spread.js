@@ -37,7 +37,7 @@ function somarComRest() {
 console.log(somarComRest(10, 30, 50));
 
 //SPREADS
-var numeros = [10, 40, 60];
+var numeros = [100000, 40, 60];
 (_console = console).log.apply(_console, numeros);
 var timesDeSP = ['Corinthians', 'Bragantino', 'São Paulo', 'Santos'];
 var timesDoRJ = ['Vasco', 'Flamengo', 'Fluminense', 'America'];
@@ -56,7 +56,7 @@ var carroTeste2 = _objectSpread(_objectSpread({}, carroTeste1), {}, {
 console.log(carroTeste1);
 console.log(carroTeste2);
 
-//DESETRUTURAÇÃO
+//DESESTRUTURAÇÃO
 // const motorCarroTeste2 = carroTeste2.motor; //motor é a propriedade
 // console.log(motorCarroTeste2);
 var motorCarroTeste1 = carroTeste1.motor;

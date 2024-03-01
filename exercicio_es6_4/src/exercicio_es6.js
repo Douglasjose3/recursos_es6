@@ -7,7 +7,7 @@ const alunos = [
 
 alunos.push({nome: 'Douglas', nota: 10});
 
-const alunosNotas = alunos.filter(alunos => alunos.nota >= 7);
+const alunosNotas = alunos.filter(alunos => alunos.nota >= 6);
 console.log(alunosNotas);
 
 
